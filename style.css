@@ -1,0 +1,915 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 3497px;
+    position: relative;
+  }
+  
+  .desktop .header {
+    position: absolute;
+    width: 1441px;
+    height: 753px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .desktop .overlap {
+    width: 1441px;
+    position: relative;
+    height: 753px;
+  }
+  
+  .desktop .background {
+    position: absolute;
+    width: 1441px;
+    height: 753px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .overlap-group {
+    position: relative;
+    height: 753px;
+  }
+  
+  .desktop .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 753px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .rectangle-2 {
+    position: absolute;
+    width: 1440px;
+    height: 753px;
+    top: 0;
+    left: 1px;
+    background-color: #0000001a;
+  }
+  
+  .desktop .teks-utama {
+    position: absolute;
+    width: 690px;
+    height: 88px;
+    top: 426px;
+    left: 377px;
+  }
+  
+  .desktop .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .p {
+    position: absolute;
+    top: 58px;
+    left: 84px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 24px;
+    position: absolute;
+    top: 549px;
+    left: 641px;
+    background-color: #007bff;
+    border-radius: 30px;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .navbar {
+    position: absolute;
+    width: 1140px;
+    height: 84px;
+    top: 35px;
+    left: 150px;
+    background-color: #007bff;
+    border-radius: 50px;
+  }
+  
+  .desktop .search {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 29px;
+    left: 1028px;
+  }
+  
+  .desktop .filter {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 29px;
+    left: 1078px;
+  }
+  
+  .desktop .logo-nama {
+    position: absolute;
+    width: 123px;
+    height: 45px;
+    top: 19px;
+    left: 19px;
+  }
+  
+  .desktop .logo {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 22.5px;
+  }
+  
+  .desktop .image {
+    width: 37px;
+    height: 28px;
+    top: 8px;
+    left: 4px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .SMK-n-new-york {
+    position: absolute;
+    top: 2px;
+    left: 55px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .component {
+    position: absolute;
+    width: 811px;
+    height: 44px;
+    top: 20px;
+    left: 164px;
+  }
+  
+  .desktop .HOME {
+    display: flex;
+    width: 67px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .KONTAK {
+    display: flex;
+    width: 85px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 607px;
+  }
+  
+  .desktop .PROFIL {
+    display: flex;
+    width: 98px;
+    height: 44px;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 92px;
+  }
+  
+  .desktop .ic-round-expand-more {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .desktop .FITUR {
+    display: flex;
+    width: 89px;
+    height: 44px;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 215px;
+  }
+  
+  .desktop .DATABASE {
+    display: flex;
+    width: 128px;
+    height: 44px;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 329px;
+  }
+  
+  .desktop .GALERI {
+    display: flex;
+    width: 100px;
+    height: 44px;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 482px;
+  }
+  
+  .desktop .LOGIN {
+    display: flex;
+    width: 94px;
+    height: 44px;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 717px;
+  }
+  
+  .desktop .konten {
+    position: absolute;
+    width: 1140px;
+    height: 352px;
+    top: 854px;
+    left: 151px;
+  }
+  
+  .desktop .login-form {
+    position: absolute;
+    width: 493px;
+    height: 352px;
+    top: 0;
+    left: 649px;
+  }
+  
+  .desktop .overlap-group-2 {
+    position: relative;
+    width: 491px;
+    height: 352px;
+    background-color: #007bff;
+    border-radius: 10px;
+  }
+  
+  .desktop .username {
+    display: flex;
+    width: 370px;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 25px;
+    position: absolute;
+    top: 95px;
+    left: 34px;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #007bff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .password {
+    display: flex;
+    width: 370px;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 25px;
+    position: absolute;
+    top: 154px;
+    left: 34px;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: absolute;
+    top: 31px;
+    left: 125px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .login-sebagai {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 277px;
+    left: 204px;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+  
+  .desktop .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #007bff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .login-sebagai-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 230px;
+    padding: 10px;
+    position: absolute;
+    top: 218px;
+    left: 34px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #ffffff;
+  }
+  
+  .desktop .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .kepsek {
+    position: absolute;
+    width: 556px;
+    height: 281px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 242px;
+    left: 232px;
+    background-color: #007bff;
+    border-radius: 20px;
+  }
+  
+  .desktop .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .solar-arrow-up {
+    position: relative;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .desktop .img {
+    position: absolute;
+    width: 212px;
+    height: 274px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .teks {
+    position: absolute;
+    width: 328px;
+    height: 222px;
+    top: 0;
+    left: 232px;
+  }
+  
+  .desktop .kepala-sekolah-SMK {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .span {
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  
+  .desktop .text-wrapper-9 {
+    font-size: 24px;
+  }
+  
+  .desktop .text-wrapper-10 {
+    position: absolute;
+    width: 324px;
+    top: 78px;
+    left: 0;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .konten-artikel {
+    width: 1440px;
+    height: 1070px;
+    top: 1314px;
+    background-color: #f0f0f0;
+    position: absolute;
+    left: 0;
+  }
+  
+  .desktop .konten-artikel-2 {
+    position: relative;
+    width: 1055px;
+    height: 894px;
+    top: 90px;
+    left: 150px;
+  }
+  
+  .desktop .KONTEN-JURNAL {
+    top: 0;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    left: 0;
+  }
+  
+  .desktop .artikel {
+    position: absolute;
+    width: 1053px;
+    height: 803px;
+    top: 91px;
+    left: 0;
+  }
+  
+  .desktop .frame {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: flex-start;
+  }
+  
+  .desktop .rectangle-3 {
+    position: relative;
+    width: 267px;
+    height: 199px;
+  }
+  
+  .desktop .text-wrapper-11 {
+    position: relative;
+    width: 263px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-12 {
+    position: relative;
+    width: 263px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .frame-2 {
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: flex-start;
+  }
+  
+  .desktop .text-wrapper-13 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #007bff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .frame-3 {
+    top: 0;
+    left: 383px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .desktop .frame-4 {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 390px;
+    left: 383px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: flex-start;
+  }
+  
+  .desktop .frame-5 {
+    top: 0;
+    left: 766px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .desktop .frame-6 {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 414px;
+    left: 766px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: flex-start;
+  }
+  
+  .desktop .frame-7 {
+    top: 390px;
+    left: 0;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .desktop .banner {
+    position: absolute;
+    width: 1133px;
+    height: 422px;
+    top: 2495px;
+    left: 155px;
+  }
+  
+  .desktop .text-wrapper-14 {
+    position: absolute;
+    top: 0;
+    left: 399px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .ikon-banner {
+    position: absolute;
+    width: 1131px;
+    height: 377px;
+    top: 45px;
+    left: 0;
+  }
+  
+  .desktop .image-2 {
+    width: 338px;
+    height: 338px;
+    top: 20px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-3 {
+    width: 312px;
+    height: 377px;
+    top: 0;
+    left: 426px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-4 {
+    width: 305px;
+    height: 305px;
+    top: 36px;
+    left: 826px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .footer {
+    position: absolute;
+    width: 1440px;
+    height: 477px;
+    top: 3020px;
+    left: 0;
+    background-color: #007bff;
+  }
+  
+  .desktop .footer-2 {
+    position: absolute;
+    width: 1142px;
+    height: 307px;
+    top: 51px;
+    left: 150px;
+  }
+  
+  .desktop .rectangle-4 {
+    position: absolute;
+    width: 302px;
+    height: 299px;
+    top: 0;
+    left: 838px;
+  }
+  
+  .desktop .flexcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    position: absolute;
+    width: 83px;
+    height: 307px;
+    top: 0;
+    left: 521px;
+  }
+  
+  .desktop .text {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-15 {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+  
+  .desktop .logo-2 {
+    position: absolute;
+    width: 397px;
+    height: 174px;
+    top: 3px;
+    left: 0;
+  }
+  
+  .desktop .alamat {
+    position: absolute;
+    width: 401px;
+    height: 63px;
+    top: 111px;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper-16 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-17 {
+    position: absolute;
+    top: 39px;
+    left: 0;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .image-wrapper {
+    position: absolute;
+    width: 100px;
+    height: 101px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 50px/50.56px;
+  }
+  
+  .desktop .image-5 {
+    position: absolute;
+    width: 76px;
+    height: 58px;
+    top: 22px;
+    left: 12px;
+    object-fit: cover;
+  }
+  
+  .desktop .ikuti-kami {
+    position: absolute;
+    width: 237px;
+    height: 67px;
+    top: 237px;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper-18 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .ikon-media {
+    position: absolute;
+    width: 230px;
+    height: 30px;
+    top: 37px;
+    left: 5px;
+  }
+  
+  .desktop .copyright {
+    position: absolute;
+    width: 751px;
+    height: 33px;
+    top: 415px;
+    left: 346px;
+  }
+  
+  .desktop .text-wrapper-19 {
+    position: absolute;
+    top: 15px;
+    left: 171px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .line {
+    position: absolute;
+    width: 749px;
+    height: 1px;
+    top: -1px;
+    left: 0;
+    object-fit: cover;
+  }
+  
